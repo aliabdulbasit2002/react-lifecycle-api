@@ -1,10 +1,12 @@
 import UsersClass from "./Components/UsersClass";
 import "./App.css";
+import UsersFunction from "./Components/UsersFunction";
 
 const App = () => {
   return (
     <>
-      <UsersClass />
+      {/* <UsersClass /> */}
+      <UsersFunction />
     </>
   );
 };
